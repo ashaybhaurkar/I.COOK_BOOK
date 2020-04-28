@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Daliya_upma2">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="268dp"
+        android:layout_height="58dp"
+        android:text="Procedure"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.342"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.062" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="295dp"
+        android:layout_height="521dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="\n1)Heat The Oil. Put rai, bedgi mirch, choppe ginger and green chillies. Roast until ginger is crisp and brown. Then add the hing followed by curry patta, after that add the haldi and sabji's one by one according to their hardness.\n\n
+2)Put Vegetables. In the chaunk in the same order. When they are partially cooked add boiling water. Pour in salt, Pulao Masala and sugar.\n\n
+3)Bring the mixture to boil and simmer for about 10 mins. Then add the roasted daliya, cook at high flame until most of the water is absorbed. Cover, put weight on it, reduce the flame to min. Cook for about 15 mins. Finally mix in lemon juice, dhaniya Patta and coconut."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.422"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="183dp"
+        android:layout_height="214dp"
+        android:layout_marginStart="252dp"
+        android:layout_marginTop="492dp"
+        android:foreground="@drawable/desset"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:color/darker_gray"
+        tools:srcCompat="@color/colorAccent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="191dp"
+        android:layout_height="203dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="80dp"
+        android:foreground="@drawable/lunch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@color/colorAccent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="181dp"
+        android:layout_height="205dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="76dp"
+        android:foreground="@drawable/breakfast"
+        android:src="@drawable/breakfast"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="#F5ECEF" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="199dp"
+        android:layout_height="214dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="492dp"
+        android:foreground="@drawable/dinner"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@color/colorAccent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

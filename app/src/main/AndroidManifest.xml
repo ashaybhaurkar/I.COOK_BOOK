@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.icook_book">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".subji_maincource"></activity>
+        <activity android:name=".Halva_dessert1" />
+        <activity android:name=".Halva_dessert" />
+        <activity android:name=".jalebi_2" />
+        <activity android:name=".jalebi" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Manchowsoup2" />
+        <activity android:name=".Manchowsoup" />
+        <activity android:name=".Daliya_upma2" />
+        <activity android:name=".Dessert" />
+        <activity android:name=".MainCourse" />
+        <activity android:name=".starters" />
+        <activity android:name=".Daliya_Upma" />
+        <activity
+            android:name=".Main3Activity"
+            android:label="@string/title_activity_main3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".breakfast" />
+        <activity android:name=".All_RECIPIE" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
